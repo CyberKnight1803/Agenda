@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/todo"
+        android:icon="@drawable/ic_todo"
+        android:title="@string/title_todo" />
+
+    <item
+        android:id="@+id/meetings"
+        android:icon="@drawable/ic_meeting"
+        android:title="@string/title_meetings" />
+
+    <item
+        android:id="@+id/deadlines"
+        android:icon="@drawable/ic_deadlines"
+        android:title="@string/title_deadlines" />
+
+    <item
+        android:id="@+id/notes"
+        android:icon="@drawable/ic_diary"
+        android:title="@string/title_diary" />
+
+</menu>

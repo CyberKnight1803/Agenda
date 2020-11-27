@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.notessample.ui.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/todo"
+        android:name="com.example.notessample.ui.todos.TodosFragment"
+        tools:layout="@layout/fragment_todo" />
+
+    <fragment
+        android:id="@+id/meetings"
+        android:name="com.example.notessample.ui.meetings.MeetingsFragment"
+        tools:layout="@layout/fragment_meetings" />
+
+    <fragment
+        android:id="@+id/deadlines"
+        android:name="com.example.notessample.ui.deadlines.DeadlinesFragment"
+        tools:layout="@layout/fragment_deadlines" />
+
+    <fragment
+        android:id="@+id/notes"
+        android:name="com.example.notessample.ui.notes.NoteFragment"
+        tools:layout="@layout/fragment_note" />
+
+</navigation>

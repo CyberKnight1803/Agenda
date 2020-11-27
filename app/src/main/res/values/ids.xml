@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="scrollView2" type="id" />
+    <item name="imageBack" type="id" />
+    <item name="imageSave" type="id" />
+    <item name="inputNoteTitle" type="id" />
+    <item name="inputNoteSubtitle" type="id" />
+    <item name="viewSubtitleIndicator" type="id" />
+    <item name="inputNote" type="id" />
+</resources>
